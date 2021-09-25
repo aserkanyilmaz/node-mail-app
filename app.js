@@ -14,7 +14,7 @@ nodemailer paketini kullanarak mail atma uygulaması.
 let mailOptions = {
   from: 'kendi mailiniz',
   to: 'gönderilecek kişinin maili',
-  cc:'başka birini bilgilendirmek için buraya mail yazabilirsiniz.'
+  cc:'başka birini bilgilendirmek için buraya mail yazabilirsiniz.',
   bcc:'buraya eklediğiniz maillerde kişiler birbirlerini görmeden aynı maili alır.',
   subject:'Sevgilerle ASY ',
   html: '<h1> Mesajın içeriği </h1>'
