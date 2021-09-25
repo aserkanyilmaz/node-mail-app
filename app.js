@@ -3,7 +3,7 @@ const nodemailer = require ('nodemailer')
 let transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'sekoylmz14@gmail.com',  
+    user: 'sekoylmz14@gmail.com',
     pass: 'mkkzvdmcfodueymk' //random password
   }
 })
@@ -17,7 +17,7 @@ let mailOptions = {
   cc:'başka birini bilgilendirmek için buraya mail yazabilirsiniz.'
   bcc:'buraya eklediğiniz maillerde kişiler birbirlerini görmeden aynı maili alır.',
   subject:'Sevgilerle ASY ',
-  html: '<h1> Nur kim ya :D </h1>'
+  html: '<h1> Mesajın içeriği </h1>'
 }
 
 transporter.sendMail(mailOptions,(err,data)=>{
